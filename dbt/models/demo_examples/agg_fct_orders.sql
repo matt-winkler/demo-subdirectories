@@ -5,6 +5,7 @@
 
 with source_data as (select * from {{ ref('fct_orders') }} ),
 
+
 final as (
     select order_key,
            sum(gross_item_sales_amount) as gross_item_sales_amount,
