@@ -354,3 +354,52 @@ There are 1 unused configuration paths:
 2021-10-04 15:05:18.008695 (Thread-37): handling status request
 2021-10-04 15:05:18.008983 (Thread-37): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1292b1c6-8bba-41eb-aea8-b139886aff00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe90434ea30>]}
 2021-10-04 15:05:18.009665 (Thread-37): sending response (<Response 8409 bytes [200 OK]>) to 10.0.38.186
+2021-10-04 15:05:45.019211 (Thread-38): handling status request
+2021-10-04 15:05:45.019504 (Thread-38): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1292b1c6-8bba-41eb-aea8-b139886aff00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe90434e0a0>]}
+2021-10-04 15:05:45.020204 (Thread-38): sending response (<Response 8409 bytes [200 OK]>) to 10.0.17.141
+2021-10-04 15:05:45.060198 (MainThread): Connection 'operation.tpch.tpch-on-run-end-1' was properly closed.
+2021-10-04 15:05:45.248344 (Thread-39): Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2021-10-04 15:05:45.248736 (Thread-39): Partial parsing enabled, no changes found, skipping parsing
+2021-10-04 15:05:45.250447 (Thread-39): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.snowflake_spend
+
+2021-10-04 15:05:45.259602 (Thread-39): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1292b1c6-8bba-41eb-aea8-b139886aff00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe904507970>]}
+2021-10-04 15:08:02.840415 (Thread-40): handling status request
+2021-10-04 15:08:02.840750 (Thread-40): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1292b1c6-8bba-41eb-aea8-b139886aff00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe9045078e0>]}
+2021-10-04 15:08:02.841305 (Thread-40): sending response (<Response 1632 bytes [200 OK]>) to 10.0.24.43
+2021-10-04 15:08:02.987023 (Thread-41): handling status request
+2021-10-04 15:08:02.987328 (Thread-41): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1292b1c6-8bba-41eb-aea8-b139886aff00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe904507ac0>]}
+2021-10-04 15:08:02.987857 (Thread-41): sending response (<Response 1632 bytes [200 OK]>) to 10.0.2.242
+2021-10-04 15:08:03.175086 (Thread-42): handling status request
+2021-10-04 15:08:03.175381 (Thread-42): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1292b1c6-8bba-41eb-aea8-b139886aff00', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe904507580>]}
+2021-10-04 15:08:03.175932 (Thread-42): sending response (<Response 1632 bytes [200 OK]>) to 10.0.2.242
+2021-10-04 15:09:36.653712 (MainThread): Running with dbt=0.20.2
+2021-10-04 15:09:37.022126 (MainThread): running dbt with arguments Namespace(cls=<class 'dbt.task.rpc.server.RPCServerTask'>, debug=False, defer=None, exclude=None, host='0.0.0.0', log_cache_events=False, log_format='default', models=None, partial_parse=True, port=8580, profile='user', profiles_dir='/usr/src/develop/.dbt', project_dir=None, record_timing_info=None, rpc_method=None, single_threaded=False, state=None, strict=False, target=None, test_new_parser=False, threads=None, use_cache=True, use_colors=None, use_experimental_parser=False, vars='{}', version_check=True, warn_error=False, which='rpc', write_json=True)
+2021-10-04 15:09:37.030127 (MainThread): Tracking: tracking
+2021-10-04 15:09:37.030405 (MainThread): Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feda2f6cfa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7feda2c4f8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed689fb340>]}
+2021-10-04 15:09:37.031429 (MainThread): Serving RPC server at 0.0.0.0:8580, pid=22
+2021-10-04 15:09:37.035845 (MainThread): Supported methods: ['cli_args', 'compile', 'compile_sql', 'deps', 'docs.generate', 'gc', 'get-manifest', 'kill', 'list', 'poll', 'ps', 'run', 'run-operation', 'run_sql', 'seed', 'snapshot', 'snapshot-freshness', 'status', 'test']
+2021-10-04 15:09:37.036037 (MainThread): Send requests to http://localhost:8580/jsonrpc
+2021-10-04 15:09:37.419414 (Thread-12): Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2021-10-04 15:09:37.419820 (Thread-12): Partial parsing enabled, no changes found, skipping parsing
+2021-10-04 15:09:37.421543 (Thread-12): [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.snowflake_spend
+
+2021-10-04 15:09:37.431395 (Thread-12): Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'de318533-7132-408f-abc6-79fad4f67ebc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed68145ee0>]}
+2021-10-04 15:09:40.870690 (Thread-13): handling status request
+2021-10-04 15:09:40.871041 (Thread-13): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'de318533-7132-408f-abc6-79fad4f67ebc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed6818f100>]}
+2021-10-04 15:09:40.871742 (Thread-13): sending response (<Response 1632 bytes [200 OK]>) to 10.0.37.39
+2021-10-04 15:09:40.983412 (Thread-14): handling status request
+2021-10-04 15:09:40.983658 (Thread-14): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'de318533-7132-408f-abc6-79fad4f67ebc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed68187cd0>]}
+2021-10-04 15:09:40.984182 (Thread-14): sending response (<Response 1632 bytes [200 OK]>) to 10.0.38.241
+2021-10-04 15:09:41.083338 (Thread-15): handling status request
+2021-10-04 15:09:41.083564 (Thread-15): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'de318533-7132-408f-abc6-79fad4f67ebc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed68187d60>]}
+2021-10-04 15:09:41.084036 (Thread-15): sending response (<Response 1632 bytes [200 OK]>) to 10.0.41.26
+2021-10-04 15:09:41.229983 (Thread-16): handling status request
+2021-10-04 15:09:41.230316 (Thread-16): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'de318533-7132-408f-abc6-79fad4f67ebc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed689feeb0>]}
+2021-10-04 15:09:41.230923 (Thread-16): sending response (<Response 1632 bytes [200 OK]>) to 10.0.10.133
+2021-10-04 15:09:41.264306 (Thread-17): handling ps request
+2021-10-04 15:09:41.264515 (Thread-17): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'de318533-7132-408f-abc6-79fad4f67ebc', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fed689fea90>]}
+2021-10-04 15:09:41.264987 (Thread-17): sending response (<Response 105 bytes [200 OK]>) to 10.0.41.26
